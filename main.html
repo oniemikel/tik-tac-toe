@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>○×ゲーム</title>
+    <title>○×ゲーム（vs コンピュータ）</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="game-container">
+        <h1>○×ゲーム</h1>
         <div id="status">次のプレイヤー: あなた (○)</div>
         <div id="game-board">
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
-            <button class="game-button">?</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
+            <button class="game-button" type="button">-</button>
         </div>
-        <button onclick="resetGame()">リセット</button>
+        <button id="reset-btn" type="button">リセット</button>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
