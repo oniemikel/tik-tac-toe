@@ -8,5 +8,5 @@ Maybe the COM is stronger than you... :)
 
 ## Description
 
-This game was made with HTML, CSS, and JavaScript.  
+This game was made with ***HTML***, ***CSS***, and ***JavaScript***.  
 The AI uses the Minimax algorithm, so the browser may freeze for a few seconds at the beginning while it performs the initial calculation.
